@@ -208,6 +208,12 @@ body{
 		font-size:6vh;
 	}
 
+#widgetwrap{
+	width:100vw;
+	padding-right:0vw;
+	overflow-y:auto;
+}
+
 	.widget{
 		width:100vw;
 		height:30vh;
