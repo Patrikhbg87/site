@@ -201,15 +201,15 @@ body{
 
 @media screen and (max-width: 640px){
 	#content h1{
-		font-size:6vh;
+		font-size:8vh;
 	}
 
 	#title{
-		font-size:4vh;
+		font-size:6vh;
 	}
 
 	.widget{
-		width:97vw;
+		width:100vw;
 		height:30vh;
 		margin-left:0vw;
 		float:left;
