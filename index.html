@@ -13,13 +13,79 @@ body{
   color:#000;
 }
 
-#wrapper{
-width:320px;
-}
-
 a{
 color:#fff;
 }
+  
+/*
+########################################################################################################################
+##################################################    BASIC LAYOUT    ##################################################
+########################################################################################################################
+*/
+  #wrapper{
+    width:100%;
+    height:100%;
+  }
+
+  #masterheader{
+    width:100%;
+    height:20vh;
+  }
+  
+  #masternav{
+    width:100%;
+    height:8vh;
+    margin:0 auto;
+  }
+  
+  #masternav li{
+    list-style-type:none;
+    display:inline;
+  }
+  
+  #masternav li a{
+    color:#fff;
+    font-size:5vh;
+    padding:1vw 1vh;
+    background:#fb0;
+  }
+  
+  #content{
+    width:100%;
+    height:70vh;
+    background:#1f1;
+  }
+  
+  #widgetwrap{
+    width:100%;
+    height:100%;
+  }
+  
+  .widget{
+    width:30vw;
+    height:60vh;
+    float:left;
+    margin-right:3vw;
+  }
+  
+  .widget h3{
+    font-size:8vh;
+  }
+  
+  .widget p{
+    font-size:5vh;
+  }
+  
+  #masterfooter{
+    width:100%;
+    height:10vh;
+  }
+  
+  #masterfooter p{
+    font-size:2vh;
+    text-align:center;
+  }
+
 </style>
 </head>
 <body>
@@ -33,6 +99,8 @@ color:#fff;
     </nav><!-- masternav -->
   </header><!-- masterhead -->
   <section id="content">
+    <h1>Startsida</h1>
+    <span>patrikmalmgrenrask.se -> Startsida</span>
     <section id="widgetwrap">
       <section class="widget">
         <h3>Widget</h3>
@@ -41,7 +109,7 @@ color:#fff;
     </section><!-- widgetwrap -->
   </section><!-- content -->
   <section id="masterfooter">
-    <p>&copy; Patrik Malmgren Rask</p>
+    <p>&copy; 2017 Patrik Malmgren Rask</p>
   </section><!-- masterfooter -->
 </section><!-- wrapper -->
 </body>
