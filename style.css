@@ -197,3 +197,25 @@ body{
 	font-size:3vw 3vh;
 	color:#4c4c4c;
 }
+
+
+@media screen and (max-width: 480px){
+	#content h1{
+		font-size:6vh;
+	}
+
+	#title{
+		font-size:4vh;
+	}
+
+	.widget{
+		width:97vw;
+		height:30vh;
+		margin-left:3vw;
+		float:left;
+		background:#fff;
+		display:inline-block;
+		border:1px solid black;
+	}
+
+} /* max-width 480px */
