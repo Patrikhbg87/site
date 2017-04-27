@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="charset" content="UTF-8" />
 <title>Patrik Malmgren Rask - Webbdesign</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -11,9 +12,9 @@
     <div id="webtitle">
       <h2 id="title">Patrik Malmgren-Rask</h2>
     </div><!-- webtitle -->
-    <a href="#opennav" id="opennav"><i class="fa fa-bars"></i></a>
+    <a href="#opennav" id="opennav"><i class="fa fa-bars" id="navtoggleopen"></i></a>
     <section id="navwrap">
-      <a href="#closenav" id="closenav"><i class="fa fa-close"></i></a>
+      <a href="#closenav" id="closenav"><i class="fa fa-close" id="navtoggleclose"></i></a>
       <nav id="nav">
         <li><a href="#" title="Startsida">Startsida</a></li>
         <li><a href="#" title="Kunskaper">Kunskaper</a></li>
@@ -30,6 +31,15 @@
         <h3>Widget</h3>
         <p>Det här här en widget!</p>
       </section><!-- widget -->
+      <section class="widget">
+        <h3>Widget</h3>
+        <p>Det här här en widget!</p>
+      </section><!-- widget -->
+      <section class="widget">
+        <h3>Widget</h3>
+        <p>Det här här en widget!</p>
+      </section><!-- widget -->
+
     </section><!-- widgetwrap -->
   </section><!-- content -->
   <section id="masterfooter">
@@ -41,19 +51,15 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-  $("#opennav").click(function(){
-    $("#masternav").show("slow");
-  });
-  $("#closenav").click(function(){
-    $("#masternav").hide("slow");
-  });
-  $("#opennav").click(function(){
-    $("#opennav").hide("slow");
-  });
-  $("#closenav").click(function(){
-    $("#opennav").show("slow");
-  });
-  
+	$("#opennav").click(function(){
+		$("#navwrap").show("slow");
+	});
+	$("#closenav").click(function(){
+		$("#navwrap").hide("slow");
+	});
+	$("#opennav").click(function(){
+		$("#closenav").show("slow");
+	});
 });
 
 </script>
