@@ -22,6 +22,9 @@
     height:20vh;
   }
 
+  #masterheader h2{
+    font-size:8vh;
+  }   
   #opennav{
     font-size:3vh;
     color:#fff;
