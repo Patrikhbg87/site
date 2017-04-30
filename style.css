@@ -128,9 +128,10 @@ float:right;
 #navwrap{
 	display:none;
 	width:100%;
-	height:100%;
+	height:100vh;
 	background:#000;
 	position:absolute;
+margin-top:-10vh;
 }
 
 #nav{
