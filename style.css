@@ -228,6 +228,7 @@ margin-top:-10vh;
 
 #widgetwrap{
 	width:100vw;
+height:70vh;
 	padding-right:0vw;
 	overflow-y:auto;
 }
