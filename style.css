@@ -82,6 +82,23 @@ body{
 	color:#fff;
 }
 
+#topwrap{
+width:100%;
+height:10vh;
+}
+
+#topleft{
+width:50%;
+height:10vh;
+float:left;
+}
+
+#topright{
+width:50%;
+height:10vh
+float:right;
+}
+
 #opennav{
 	width:5vh;
 	height:5vh;
