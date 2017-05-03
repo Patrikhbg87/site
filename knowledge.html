@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta name="charset" content="UTF-8" />
+<title>Patrik Malmgren Rask - Webbdesign - Kunskaper</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section id="wrapper">
+  <header id="masterhead">
+<section id="topwrap">
+<section id="topleft"></section><!-- topleft -->
+<section id="topright"><a href="#opennav" id="opennav"><i class="fa fa-bars" id="navtoggleopen"></i></a>
+</section><!-- topright -->
+</section><!-- topwrap -->
+    <section id="navwrap">
+      <a href="#closenav" id="closenav"><i class="fa fa-close" id="navtoggleclose"></i></a>
+      <nav id="nav">
+        <li><a href="index.html" title="Startsida">Startsida</a></li>
+        <li><a href="knowledge.html" title="Kunskaper">Kunskaper</a></li>
+        <li><a href="work.html" title="Arbeten">Arbeten</a></li>
+        <li><a href="contact.html" title="Kontakt">Kontakt</a></li>
+      </nav>
+    </section><!-- navwrap -->
+    <div id="webtitle">
+      <h2 id="title">Patrik Malmgren-Rask</h2>
+    </div><!-- webtitle -->
+  </header><!-- masterhead -->
+  <section id="content">
+    <h1>Kunskaper</h1>
+    <span>patrikmalmgrenrask.se -> Kunskaper</span>
+    <section id="widgetwrap">
+      <section class="widget_knowledge">
+        <h3>Kunskaper</h3>
+        <p>Information skapas...</p>
+        <progress></progress>
+      </section><!-- widget -->
 
+    </section><!-- widgetwrap -->
+  </section><!-- content -->
+  <section id="masterfooter">
+    <p>&copy; 2017 Patrik Malmgren Rask</p>
+  </section><!-- masterfooter -->
+</section><!-- wrapper -->
+</body>
+<!-- JS -->
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCXloqmKkYyqiJ0ZAm4mpG2vzZ_V6pY55M",
+    authDomain: "pmrweb-234e9.firebaseapp.com",
+    databaseURL: "https://pmrweb-234e9.firebaseio.com",
+    projectId: "pmrweb-234e9",
+    storageBucket: "pmrweb-234e9.appspot.com",
+    messagingSenderId: "1096396105093"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#opennav").click(function(){
+		$("#navwrap").show("slow");
+	});
+	$("#closenav").click(function(){
+		$("#navwrap").hide("slow");
+	});
+	$("#opennav").click(function(){
+		$("#closenav").show("slow");
+	});
+});
+</script>
+</html>
