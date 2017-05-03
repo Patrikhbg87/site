@@ -52,12 +52,6 @@
 </section><!-- wrapper -->
 </body>
 <!-- JS -->
-$.ajax({
-    url: "https://formspree.io/patrik.malmgren.rask@comhem.se", 
-    method: "POST",
-    data: {message: "hello!"},
-    dataType: "json"
-});
 <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 <script>
   // Initialize Firebase
@@ -85,5 +79,11 @@ $(document).ready(function(){
 	});
 });
 
+$.ajax({
+    url: "https://formspree.io/patrik.malmgren.rask@comhem.se", 
+    method: "POST",
+    data: {message: "hello!"},
+    dataType: "json"
+});
 </script>
 </html>
