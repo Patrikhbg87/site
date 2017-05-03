@@ -203,6 +203,28 @@ margin-top:-10vh;
 	padding:5px;
 }
 
+#widget_contact{
+	width:100vw;
+}
+
+form{
+	width:100vw;
+}
+
+form input{
+	width:100vw;
+	height:10vh;
+}
+
+#sendid{
+	width:100vw;
+	height:10vh;
+	border:none;
+	-webkit-appearance:none;
+}
+
+#widget_contact{}
+
 #masterfooter{
 	width:100%;
 	height:10vh;
