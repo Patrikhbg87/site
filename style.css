@@ -223,7 +223,12 @@ form input{
 	-webkit-appearance:none;
 }
 
-#widget_contact{}
+#resetid{
+	width:50vw;
+	height:10vh;
+	border:none;
+	-webkit-appearance:none;
+}
 
 #masterfooter{
 	width:100%;
