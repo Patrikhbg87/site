@@ -36,7 +36,8 @@
         <p>Använd denna sida för att skicka frågor om arbete eller övrig information!</p>
 <form action="" method="POST" id="form">
 <input type="text" name="name" placeholder="Ditt namn" />
-<input type="mail" name="email" placeholder="Din epost" />
+<input type="text" name="_subject" value="Epost från hemsida" style="display:none;"/>
+<input type="mail" name="_replyto" placeholder="Din epost" />
 <input type="textarea" name="message" placeholder="Ditt meddelande" />
 <input type="submit" name="send" value="Skicka" />
 <input type="reset" />
@@ -51,6 +52,12 @@
 </section><!-- wrapper -->
 </body>
 <!-- JS -->
+$.ajax({
+    url: "https://formspree.io/patrik.malmgren.rask@comhem.se", 
+    method: "POST",
+    data: {message: "hello!"},
+    dataType: "json"
+});
 <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
 <script>
   // Initialize Firebase
