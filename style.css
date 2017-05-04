@@ -216,12 +216,14 @@ form{
 form input{
 	width:100vw;
 	height:10vh;
+margin-top:5vh;
 box-sizing:border-box;
 }
 
 #message{
 	width:100vw;
 	height:30vh;
+margin-top:5vh;
 box-sizing:border-box;
 }
 
@@ -229,6 +231,7 @@ box-sizing:border-box;
 	width:100vw;
 	height:10vh;
 	border:1px solid green;
+margin-top:5vh;
 box-sizing:border-box;
 	-webkit-appearance:none;
 }
@@ -237,6 +240,7 @@ box-sizing:border-box;
 	width:50vw;
 	height:10vh;
 	border:1px solid red;
+margin-top:5vh;
 box-sizing:border-box;
 	-webkit-appearance:none;
 }
