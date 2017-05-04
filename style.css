@@ -216,24 +216,28 @@ form{
 form input{
 	width:100vw;
 	height:10vh;
+box-sizing:border-box;
 }
 
 #message{
 	width:100vw;
 	height:30vh;
+box-sizing:border-box;
 }
 
 #sendid{
 	width:100vw;
 	height:10vh;
-	border:none;
+	border:1px solid green;
+box-sizing:border-box;
 	-webkit-appearance:none;
 }
 
 #resetid{
 	width:50vw;
 	height:10vh;
-	border:none;
+	border:1px solid red;
+box-sizing:border-box;
 	-webkit-appearance:none;
 }
 
