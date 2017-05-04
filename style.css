@@ -266,6 +266,7 @@ height:10vh;
 height:58vh;
 	padding-right:0vw;
 	overflow-y:auto;
+box-sizing:border-box;
 }
 
 	.widget{
