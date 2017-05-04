@@ -218,6 +218,7 @@ form input{
 	height:10vh;
 margin-top:5vh;
 box-sizing:border-box;
+font-size:4vw 4vh;
 }
 
 #message{
@@ -225,6 +226,7 @@ box-sizing:border-box;
 	height:30vh;
 margin-top:5vh;
 box-sizing:border-box;
+font-size:4vw 4vh;
 }
 
 #sendid{
@@ -234,6 +236,7 @@ box-sizing:border-box;
 margin-top:5vh;
 box-sizing:border-box;
 	-webkit-appearance:none;
+font-size:4vw 4vh;
 }
 
 #resetid{
@@ -243,6 +246,7 @@ box-sizing:border-box;
 margin-top:5vh;
 box-sizing:border-box;
 	-webkit-appearance:none;
+font-size:4vw 4vh;
 }
 
 #masterfooter{
