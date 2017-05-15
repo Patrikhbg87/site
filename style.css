@@ -173,7 +173,7 @@ margin-top:-10vh;
 }
 
 #widgetwrap{
-	width:100vw;
+	width:94vw;
 	height:40vh;
 	background:#ccc;
 	padding-top:5vh;
@@ -190,6 +190,19 @@ box-sizing:border-box;
 	background:#fff;
 	display:inline-block;
 	border:1px solid black;
+}
+
+#box1{
+
+}
+
+#box2{
+margin-left:3vw;
+margin-right:3vw;
+}
+
+#box3{
+
 }
 
 .widget h3{
