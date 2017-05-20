@@ -306,7 +306,10 @@ margin-top:10px;
 		border:1px solid black;
 		/* Test */
 	}
-
+#box1{width:100vw;float:left;}
+#box2{width:100vw;float:left;margin-left:0vw;
+margin-right:0vw;}
+#box3{width:100vw;float:left;}
 #masterfooter{
 	width:100%;
 	height:10vh;
