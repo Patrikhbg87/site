@@ -96,22 +96,26 @@ float:left;
 #social1{
 color:#f00;
 font-size:5vh;
-padding:2vh 2vw}
+padding:2vh 2vw;
+border:1px solid grey;}
 
 #social2{
 color:#f00;
 font-size:5vh;
-padding:2vh 2vw}
+padding:2vh 2vw;
+border:1px solid grey;}
 
 #social3{
 color:#f00;
 font-size:5vh;
-padding:2vh 2vw}
+padding:2vh 2vw;
+border:1px solid grey;}
 
 #social4{
 color:#f00;
 font-size:5vh;
-padding:2vh 2vw}
+padding:2vh 2vw;
+border:1px solid grey;}
 
 
 #topright{
