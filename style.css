@@ -93,6 +93,11 @@ height:10vh;
 float:left;
 }
 
+#topleft a{
+color:#f00;
+font-size:5vh;
+padding:2vh 2vw}
+
 #topright{
 width:50%;
 height:10vh;
