@@ -47,14 +47,22 @@
 		<section class="widget_contact">
 			<h3 id="contact_title">Kontakta mig</h3>
 			<span id="contact_span">Anv&auml;nd denna sida f&ouml;r att skicka fr&aring;gor om arbete eller &ouml;vrig information!</span>
-			<form target="_blank "action="https://formspree.io/patrik.malmgren.rask@comhem.se" method="POST" id="form">
-				<input type="text" name="name" placeholder="Ditt namn" />
-				<input type="text" name="_subject" value="Epost från hemsida" style="display:none;"/>
-				<input type="mail" name="_replyto" placeholder="Din epost" />
-				<textarea name="message" placeholder="Ditt meddelande" id="message"></textarea>
-				<input type="submit" name="send" value="Skicka" id="sendid" />
+			<!-- modify this form HTML and place wherever you want your form -->
+			<form target="_blank" action="https://formspree.io/f/mknkkoqd" method="POST" id="form">
+  				<label>
+    					Your email:
+   					 <input type="email" name="_replyto" placeholder="Din epost">
+ 				 </label>
+  				<label>
+    					Your message:
+    					<textarea name="message" placeholder="Ditt meddelande" id="message"></textarea>
+  				</label>
+  				<!-- your other form fields go here -->
+  				<button type="submit" value="Skicka" id="sendid">Send</button>
 				<input type="reset" id="resetid" />
 			</form>
+			
+			
 		</section><!-- widget -->
 	</section><!-- content -->
 	<section id="masterfooter">
