@@ -49,7 +49,7 @@
 				<h3>Mig</h3>
 				<div class="">
 				<span class="boxinfo">Namn: Patrik Malmgren Rask</span>
-				<span class="boxinfo">&Aring;lder: 32</span>
+				<span class="boxinfo">&Aring;lder: <span id="age"></span></span>
 				<span class="boxinfo">Bor: Helsingborg</span>
 				<span class="boxinfo">Prat spr&aring;k: Svenska, Engelska</span>
 				<span class="boxinfo">Favorit musik: House, Trance, Dance</span>
@@ -149,20 +149,7 @@
 </section><!-- wrapper -->
 </body>
 <!-- JS -->
-<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
-<script>
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyCXloqmKkYyqiJ0ZAm4mpG2vzZ_V6pY55M",
-    authDomain: "pmrweb-234e9.firebaseapp.com",
-    databaseURL: "https://pmrweb-234e9.firebaseio.com",
-    projectId: "pmrweb-234e9",
-    storageBucket: "pmrweb-234e9.appspot.com",
-    messagingSenderId: "1096396105093"
-  };
-  firebase.initializeApp(config);
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$("#opennav").click(function(){
@@ -174,6 +161,11 @@ $(document).ready(function(){
 	$("#opennav").click(function(){
 		$("#closenav").show("slow");
 	});
+	var birthdate = new Date('1987-06-11');
+  	var today = new Date();
+  	var difference = today.getTime() - birthdate.getTime();
+  	var age = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25));
+  	$('#age').text(age);
 });
 </script>
 </html>
