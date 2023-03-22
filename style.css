@@ -271,6 +271,10 @@ body{
 	width:100%;
 }
 
+#age{
+	font-size:3vh!important;	
+}
+
 .boxinfo_wrap{
 	width:100%;
 	float:left;
