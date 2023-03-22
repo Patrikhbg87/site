@@ -47,18 +47,18 @@
 		<section class="widget_contact">
 			<h3 id="contact_title">Kontakta mig</h3>
 			<span id="contact_span">Anv&auml;nd denna sida f&ouml;r att skicka fr&aring;gor om arbete eller &ouml;vrig information!</span>
-		
+			<p>Mail formul&auml;r st&auml;ngt pga spam!</p>
 			
 			
 		</section><!-- widget -->
 	</section><!-- content -->
 	<section id="masterfooter">
-		<p>&copy; 2020 Patrik Malmgren Rask</p>
+		<p>&copy; <span id="year"></span> Patrik Malmgren Rask</p>
 	</section><!-- masterfooter -->
 </section><!-- wrapper -->
 </body>
 <!-- JS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
 	$("#opennav").click(function(){
@@ -70,6 +70,8 @@ $(document).ready(function(){
 	$("#opennav").click(function(){
 		$("#closenav").show("slow");
 	});
+	var year = new Date().getFullYear();
+  	$('#year').text(year);
 });
 </script>
 </html>
