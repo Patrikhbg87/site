@@ -144,7 +144,7 @@
 		</section><!-- widgetwrap -->
 	</section><!-- content -->
 	<section id="masterfooter">
-		<p>&copy; 2020 Patrik Malmgren Rask</p>
+		<p>&copy; <span id="year"></span> Patrik Malmgren Rask</p>
 	</section><!-- masterfooter -->
 </section><!-- wrapper -->
 </body>
@@ -166,6 +166,8 @@ $(document).ready(function(){
   	var difference = today.getTime() - birthdate.getTime();
   	var age = Math.floor(difference / (1000 * 60 * 60 * 24 * 365.25));
   	$('#age').text(age);
+	var year = new Date().getFullYear();
+  	$('#year').text(year);
 });
 </script>
 </html>
